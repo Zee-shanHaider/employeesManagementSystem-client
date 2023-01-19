@@ -1,0 +1,80 @@
+.loginForm {
+    margin: 50px 20px;
+}
+
+.login-input {
+    padding: 7px 10px;
+    margin: 25px 0px;
+    border: none;
+    border-bottom: 1px solid silver;
+    border-radius: 0;
+    width: 100%;
+    outline: none; 
+    display: block;
+    background: none;
+}
+
+.auth-btn {
+    text-align: center; 
+    /* width: 13%; */
+    margin: 5px auto;
+    display: block;
+    width: 70%;
+    margin: 5px;
+
+}
+
+.btnSign {
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.btnSign:hover{
+    color: red;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 8px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+
+.auth-form {
+  width: 40%;
+  margin: 80px auto;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+}
+
+.para {
+    color: silver;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.register {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

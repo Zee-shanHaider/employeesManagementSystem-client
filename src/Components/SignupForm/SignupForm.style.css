@@ -1,0 +1,85 @@
+
+.signupContainer {
+    width: 45%;
+    margin: 20px auto;
+}
+.signupForm {
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid silver;
+    padding: 10px 5px;
+}
+
+.img-input {
+    width: 100%;
+    padding: 3px;
+}
+
+.select {
+    color: rgb(117, 116, 116);
+}
+
+.form-floating > .form-control {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.form-floating > .form-control:focus{
+    outline: none;
+}
+
+.formControl {
+    border-bottom: 1px solid silver;
+}
+
+.form-control:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#floatingInput,#floatingPassword:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-select {
+    border: none;
+}
+
+#floatingSelect {
+    border: none;
+    outline: none;
+}
+
+#floatingSelect {
+    box-shadow: none;
+}
+
+.error {
+    color: red;
+}
+
+.validationError {
+    background-color: white;
+    color: red;
+}
+
+.submit {
+    text-align: center;
+}
+
+.mt-10 {
+    margin-top: 35px;
+}
+
+.formControl:focus{
+    box-shadow: none !important;
+}
+.image {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 6px 0px;
+}
